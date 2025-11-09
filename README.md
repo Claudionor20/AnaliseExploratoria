@@ -34,10 +34,6 @@ Supondo que foram observados os valores x₁, x₂, ..., xₙ, temos as definiç
 | **Idade** | 50,92 | 52,00 | 374,08 | 19,34 | 79 |
 | **Tempo Preso (meses)** | 60,59 | 60,50 | 99,09 | 9,95 | 51 |
 
-Essas medidas foram obtidas a partir dos arquivos:
-- `media_mediana_quartil.xlsx`
-- `variancia_desvio_amplitude.xlsx`
-
 Os resultados mostram que:
 - As **idades** apresentam **alta variabilidade** (desvio padrão ≈ 19,3), sugerindo uma população bastante heterogênea.
 - O **score de periculosidade** tem média elevada e dispersão moderada.
@@ -67,7 +63,7 @@ Há **outliers acima de 85 meses**, o que amplia a **amplitude (51)** e indica a
 
 ### 3. Boxplot do **Score de Periculosidade por Escolaridade**
 
-O gráfico mostra que **os maiores scores de periculosidade** concentram-se entre indivíduos com **Ensino Fundamental e Médio completo**, enquanto aqueles com **Ensino Superior** apresentam **menores médias (≈174,5)** e menor dispersão (desvio padrão ≈25,7).  
+O gráfico mostra que **os maiores scores de periculosidade** concentram-se entre indivíduos com **Ensino Fundamental e Médio completo**, enquanto aqueles com **Ensino Superior** apresentam scores menores.  
 Isso sugere uma **tendência de redução do score de periculosidade com o aumento da escolaridade**.
 
 <img width="2400" height="1800" alt="boxplot_score_periculosidade_escolaridade" src="https://github.com/user-attachments/assets/7777a785-d9f1-42fc-a679-27e8ca947aeb" />
@@ -75,9 +71,6 @@ Isso sugere uma **tendência de redução do score de periculosidade com o aumen
 ---
 
 ### 4. Gráfico de Barras de **Reincidência**
-
-O gráfico de barras mostra a **frequência relativa de reincidentes** na população estudada.  
-A distribuição é **bimodal**, concentrando-se fortemente nas categorias “reincidente” e “não reincidente”, o que reflete **baixa dispersão** e **alta concentração de frequência** em poucos níveis de resposta.
 
 <img width="2400" height="1800" alt="grafico_barras_reincidente" src="https://github.com/user-attachments/assets/f4904b73-6713-49f0-bceb-56bc437704d1" />
 
@@ -89,7 +82,5 @@ As análises evidenciam que:
 - A **idade** e o **score de periculosidade** apresentam maior variabilidade entre os indivíduos.
 - O **tempo preso** tende a ser mais homogêneo, com valores próximos da média.
 - O **nível de escolaridade** parece influenciar negativamente o **score de periculosidade**.
-  
-Essas observações reforçam a importância das medidas descritivas para a **caracterização da população carcerária** e para a **interpretação dos padrões de reincidência e periculosidade**.
 
 ---
