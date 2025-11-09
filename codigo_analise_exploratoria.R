@@ -54,3 +54,6 @@ ggsave("grafico_barras_reincidente.png", plot = last_plot(), width = 8, height =
 
 
 
+
+
+
