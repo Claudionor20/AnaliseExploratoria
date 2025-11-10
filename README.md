@@ -4,6 +4,9 @@ Repositório criado para a aula de **Prática Estatística 1**.
 Este repositório contém análises exploratórias descritivas realizadas com base na base de dados fornecida, incluindo cálculos de medidas de tendência central e dispersão, bem como visualizações gráficas para compreensão da distribuição das variáveis.
 
 ---
+## Pergunta - Defina com suas palavras o que é um commit:
+
+O GitHub é uma plataforma que permite o trabalho colaborativo com códigos de 	programação. Dentro desse sistema, o commit é um comando utilizado para registrar 	alterações feitas no código localmente, ou seja, no computador do desenvolvedor. Cada 	commit cria uma versão salva do projeto, com uma mensagem que descreve as mudanças 	realizadas. Depois de realizar o commit, é possível enviar essas alterações para o repositório 	remoto no GitHub por meio do comando push, permitindo que outras pessoas acessem e 	continuem o 	trabalho a partir das modificações feitas.
 
 ## Medidas de Tendência Central e Dispersão
 
@@ -73,6 +76,13 @@ Isso sugere uma **tendência de redução do score de periculosidade com o aumen
 ### 4. Gráfico de Barras de **Reincidência**
 
 <img width="2400" height="1800" alt="grafico_barras_reincidente" src="https://github.com/user-attachments/assets/f4904b73-6713-49f0-bceb-56bc437704d1" />
+
+### 5. Gráfico de Dispersão tempo_preso e score_periculosidade
+
+Através do grafico de dispersão e do coeficiente de correlação de pearson de 0.80, podemos interpretar que há uma associação estatística positiva entre o tempo que um preso fica detido e o seu score de periculosidade, ou seja, existem indicios de que quanto maior o tempo (em meses) que o detento fica preso, maior sera o seu score de periculosidade.
+
+<img width="2400" height="1800" alt="dispersao_tempo_preso_score_periculosidade" src="https://github.com/user-attachments/assets/e5d4e78e-58a0-4000-b756-a170fd2bc866" />
+
 
 ---
 
